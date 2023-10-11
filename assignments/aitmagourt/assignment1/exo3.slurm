@@ -1,9 +1,8 @@
 #!/bin/bash
 #SBATCH --export=NONE 
 #SBATCH --partition=defq 
-#SBATCH --time=00:05:00 
 #SBATCH --nodes=1 # request 1 node (optional since default=1)
-#SBATCH --ntasks=1 # request 1 task (command) per node
+#SBATCH --ntasks=3
 #SBATCH --cpus-per-task=1 # request 1 cpu (core, thread) per task
 #SBATCH --mem=4G
 #SBATCH --array=1-10%2
