@@ -8,7 +8,7 @@
 #SBATCH --job-name=exo4
 
 
-jobA = $(sbatch --parsable exo4_A.slurm)
+jobA=$(sbatch --parsable exo4_A.slurm)
 sbatch --dependency=afterok:${jobA} exo4_B.slurm
 
 
