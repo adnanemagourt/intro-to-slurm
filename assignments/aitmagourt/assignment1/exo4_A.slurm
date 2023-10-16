@@ -12,7 +12,7 @@ module purge
 
 module load Python/3.8.6-GCCcore-10.2.0
 
-python exo4_A.py
+python exo4_A.py < exo4_in.txt
 
 
 

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "exo4_A.py", line 4, in <module>
+    a, b, c = [float(x) for x in input("").split()]
+EOFError: EOF when reading a line
