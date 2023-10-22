@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "exo6_err.py", line 1, in <module>
+    raise ValueError("error for ex6")
+ValueError: error for ex6
