@@ -1,0 +1,17 @@
+       JobID    JobName  Partition    Account  AllocCPUS      State ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+5844373            exo6       defq sccs-dna-+          4     FAILED    127:0 
+5844373.bat+      batch            sccs-dna-+          4     FAILED    127:0 
+5844376            exo6       defq sccs-dna-+          4  COMPLETED      0:0 
+5844376.bat+      batch            sccs-dna-+          4  COMPLETED      0:0 
+5844377        exo6_out       defq sccs-dna-+          3  COMPLETED      0:0 
+5844377.bat+      batch            sccs-dna-+          3  COMPLETED      0:0 
+5844378            exo6       defq sccs-dna-+          3     FAILED      1:0 
+5844378.bat+      batch            sccs-dna-+          3     FAILED      1:0 
+5844379            exo6       defq sccs-dna-+          4  COMPLETED      0:0 
+5844379.bat+      batch            sccs-dna-+          4  COMPLETED      0:0 
+5844380        exo6_out       defq sccs-dna-+          3  COMPLETED      0:0 
+5844380.bat+      batch            sccs-dna-+          3  COMPLETED      0:0 
+5844381            exo6       defq sccs-dna-+          3     FAILED      1:0 
+5844381.bat+      batch            sccs-dna-+          3     FAILED      1:0 
+5844383        exo6_out       defq sccs-dna-+          1    RUNNING      0:0 
