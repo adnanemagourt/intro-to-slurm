@@ -6,7 +6,7 @@
 #SBATCH --cpus-per-task=1 # request 1 cpu (core, thread) per task
 #SBATCH --mem=4G
 #SBATCH --job-name=exo6_out
-#SBATCH --output=ex6_out.txt
+#SBATCH --output=exo6_out.txt
 
 module purge
 
