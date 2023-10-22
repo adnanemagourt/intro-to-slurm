@@ -1,0 +1,12 @@
+PARTITION AVAIL  TIMELIMIT  NODES  STATE NODELIST
+defq*        up    1:00:00      2    mix node[02,15]
+defq*        up    1:00:00      1   idle node03
+gpu          up 2-00:00:00      8    mix node[07-08,10-13,15,17]
+gpu          up 2-00:00:00      2   idle node[06,16]
+shortq       up    4:00:00      2    mix node[02,15]
+shortq       up    4:00:00      1   idle node03
+longq        up 30-00:00:0      2    mix node[02,15]
+longq        up 30-00:00:0      1   idle node03
+visu         up 1-00:00:00      1    mix visu01
+special      up      30:00      9    mix node[02,07-08,10-13,15,17]
+special      up      30:00      3   idle node[03,06,16]
