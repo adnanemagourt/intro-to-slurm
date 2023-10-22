@@ -8,10 +8,6 @@
 #SBATCH --job-name=exo6
 
 
-module purge
-
-module load Python/3.8.6-GCCcore-10.2.0
-
 sbatch exo6_out.slurm
 
 sbatch exo6_err.slurm

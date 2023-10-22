@@ -8,6 +8,9 @@
 #SBATCH --job-name=exo6_out
 #SBATCH --output=ex6_out.txt
 
+module purge
+
+module load Python/3.8.6-GCCcore-10.2.0
 
 python exo6_out.py
 
