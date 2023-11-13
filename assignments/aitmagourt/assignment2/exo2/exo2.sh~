@@ -1,0 +1,14 @@
+#!/bin/sh
+#SBATCH --array=1-4%2
+
+
+
+module purge
+module load slurm/17.11.12
+module load OpenMPI/4.0.3-GCC-9.3.0
+module load Python/3.8.2-GCCcore-9.3.0
+
+
+total_points=(1000,10000,100000,1000000)
+
+mpirun -n $SLURM_ARRAY_TASK_ID python exo2.py total_points[$SLURM_ARRAY_TASK_ID-1]
