@@ -13,7 +13,7 @@ echo "#SBATCH --cores=$SLURM_ARRAY_TASK_ID" >> exo2_$SLURM_ARRAY_TASK_ID.sh
 echo "#SBATCH --output=exo2_$SLURM_ARRAY_TASK_ID\_out.png" >> exo2_$SLURM_ARRAY_TASK_ID.sh
 echo "#SBATCH --partition=special" >> exo2_$SLURM_ARRAY_TASK_ID.sh
 echo "TOTAL_POINTS=(0,1000,10000,100000,1000000)" >> exo2_$SLURM_ARRAY_TASK_ID.sh
-echo "python exo2.py \$TOTAL_POINTS[$SLURM_ARRAY_TASK_ID]" >> exo2_$SLURM_ARRAY_TASK_ID.sh
+echo "python exo2.py \${TOTAL_POINTS[$SLURM_ARRAY_TASK_ID]}" >> exo2_$SLURM_ARRAY_TASK_ID.sh
 
 sbatch exo2_$SLURM_ARRAY_TASK_ID.sh
 
