@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "exo2.py", line 14, in <module>
+    total_points = int(sys.argv[1])
+ValueError: invalid literal for int() with base 10: '0,1000,10000,100000,1000000[1]'
