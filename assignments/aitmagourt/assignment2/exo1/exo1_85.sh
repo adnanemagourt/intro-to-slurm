@@ -1,4 +1,5 @@
 #!/bin/sh 
 #SBATCH --cores=85 
-#SBATCH --output=exo1_85_out.txt 
-python exo1.py
+python exo1.py >> exo1_out.txt#!/bin/sh 
+#SBATCH --cores=85 
+python exo1.py >> exo1_out.txt
